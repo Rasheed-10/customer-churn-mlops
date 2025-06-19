@@ -31,3 +31,4 @@ df = load_csv_from_s3("bank-customer-churn-bucket", "raw-bank-customer-churn/Ban
 
 # Show data
 print(df.head())
+print(df.shape)
